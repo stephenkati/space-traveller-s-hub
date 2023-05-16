@@ -24,7 +24,7 @@ const Mission = () => {
         {
           missions.map((mission) => (
             <tr className="mission-list" key={mission.mission_id}>
-              <td className="mission-name">{mission.mission_name}</td>
+              <td className="mission-name"><span>{mission.mission_name}</span></td>
               <td className="description">{mission.description}</td>
               <td>
                 <span className="not-a-member">NOT A MEMBER</span>
