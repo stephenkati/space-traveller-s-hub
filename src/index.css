@@ -48,7 +48,7 @@ td {
 }
 
 .mission-list:nth-child(even) {
-  background-color: rgb(168, 168, 168);
+  background-color: #dadada;
 }
 
 .mission-name {
@@ -58,7 +58,7 @@ td {
 
 .mission-name span {
   position: absolute;
-  top: 0;
+  top: 10px;
 }
 
 .not-a-member {
