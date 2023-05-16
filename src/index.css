@@ -44,6 +44,7 @@ td {
   padding: 0.5em 10px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
+  min-width: 100px;
 }
 
 .mission-list:nth-child(even) {
@@ -52,6 +53,12 @@ td {
 
 .mission-name {
   font-weight: bold;
+  position: relative;
+}
+
+.mission-name span {
+  position: absolute;
+  top: 0;
 }
 
 .not-a-member {
