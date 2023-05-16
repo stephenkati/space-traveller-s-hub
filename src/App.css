@@ -47,10 +47,17 @@ nav {
   padding: 0 24px;
 }
 
-table,
+table {
+  margin: 1em;
+  border: 1px solid rgb(121, 121, 121);
+  border-right: none;
+  border-bottom: none;
+}
+
 th,
 td {
-  border: 1px solid rgb(131, 131, 131);
+  border-bottom: 1px solid rgb(121, 121, 121);
+  border-right: 1px solid rgb(121, 121, 121);
 }
 
 .mission-table thead tr {
@@ -94,7 +101,7 @@ td {
   font-size: 18px;
   padding: 7px;
   background-color: transparent;
-  border: 1px solid dimgray;
+  border: 0.1px solid rgb(121, 121, 121);
 }
 
 .not-a-member,
