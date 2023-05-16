@@ -1,11 +1,11 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
   missions: [],
 };
 
 const MissionSlice = createSlice({
-  name:'mission',
+  name: 'mission',
   initialState,
 });
 
