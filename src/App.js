@@ -3,7 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import Navbar from './components/Navbar';
 import Missions from './components/Pages/Mission';
-import Rockets from './components/Pages/Rocket';
+import Rockets from './components/Pages/Rockets';
 import Profile from './components/Pages/Profile';
 import { getRokets } from './redux/rockets/rocketsSlice';
 import './App.css';
