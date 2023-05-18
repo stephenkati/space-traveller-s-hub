@@ -129,13 +129,13 @@ td {
 }
 
 .missions-joined {
-  padding: 0.5em 2em;
+  margin: 3rem 0 0 1.8rem;
 }
 
 .mission-joined-profile {
   border: 1px solid black;
   border-bottom: none;
-  width: 45%;
+  width: 90%;
   padding: 0;
 }
 
@@ -191,4 +191,17 @@ td {
   border: 1px solid #585858;
   border-radius: 3px;
   color: #585858;
+}
+
+.theprofile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.missionprofile {
+  width: 45%;
+}
+
+.rocketprofile {
+  width: 45%;
 }
