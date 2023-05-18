@@ -12,7 +12,7 @@ const App = () => {
   const dispatch = useDispatch(); // fetch rockets list when page loads for the first time..
   useEffect(() => {
     dispatch(getRokets());
-  }, []);
+  }, [dispatch]);
   return (
     <>
       <Navbar />
