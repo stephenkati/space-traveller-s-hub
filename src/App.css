@@ -167,10 +167,28 @@ td {
   width: 70%;
 }
 
+.reserved {
+  padding: 3px;
+  margin-right: 3px;
+  width: fit-content;
+  background-color: #15b8d4;
+  border-radius: 3px;
+  font-size: 15px;
+  color: #fff;
+}
+
 .btn {
   padding: 8px 15px;
-  background-color: rgb(49, 119, 248);
+  background-color: #3177f8;
   border: none;
   border-radius: 3px;
   color: #fff;
+}
+
+.btnReserved {
+  padding: 8px 15px;
+  background-color: #fff;
+  border: 1px solid #585858;
+  border-radius: 3px;
+  color: #585858;
 }
