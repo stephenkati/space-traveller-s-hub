@@ -5,7 +5,72 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <section>
+      <div
+        class="theprofile"
+      >
+        <section
+          class="missionprofile"
+        >
+          <div
+            class="missions-joined"
+          >
+            <h1>
+              My Missions
+            </h1>
+            <div>
+              <p>
+                No missions joined yet!
+              </p>
+              <span>
+                Go to to
+                <a
+                  class=""
+                  href="/missions"
+                >
+                   Missions 
+                </a>
+                to join a mission
+              </span>
+            </div>
+          </div>
+        </section>
+        <section
+          class="rocketprofile"
+        >
+          <div
+            class="missions-joined"
+          >
+            <h1>
+              My Rockets
+            </h1>
+            <div>
+              <p>
+                No Rockets reserved yet!
+              </p>
+              <span>
+                Go to to
+                <a
+                  aria-current="page"
+                  class="active"
+                  href="/"
+                >
+                   Rockets 
+                </a>
+                to reserve a rocket.
+              </span>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="theprofile"
+    >
+      <section
+        class="missionprofile"
+      >
         <div
           class="missions-joined"
         >
@@ -29,33 +94,34 @@ Object {
           </div>
         </div>
       </section>
-    </div>
-  </body>,
-  "container": <div>
-    <section>
-      <div
-        class="missions-joined"
+      <section
+        class="rocketprofile"
       >
-        <h1>
-          My Missions
-        </h1>
-        <div>
-          <p>
-            No missions joined yet!
-          </p>
-          <span>
-            Go to to
-            <a
-              class=""
-              href="/missions"
-            >
-               Missions 
-            </a>
-            to join a mission
-          </span>
+        <div
+          class="missions-joined"
+        >
+          <h1>
+            My Rockets
+          </h1>
+          <div>
+            <p>
+              No Rockets reserved yet!
+            </p>
+            <span>
+              Go to to
+              <a
+                aria-current="page"
+                class="active"
+                href="/"
+              >
+                 Rockets 
+              </a>
+              to reserve a rocket.
+            </span>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
